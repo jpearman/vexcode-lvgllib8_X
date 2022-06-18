@@ -1,0 +1,10 @@
+/.vscode
+/bin
+/build/**
+compile_commands.json
+
+# allow built library and includes
+!/build/include
+!/build/include/**
+!/build/libv5lvgl.a
+.DS_Store
